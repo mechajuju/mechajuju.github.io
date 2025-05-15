@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: calc(100% - 110px);
+    padding: 8px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+.results div {
+    margin-top: 5px;
+    font-size: 1.1em;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 0.9em;
+    background: #f4f4f4;
+}

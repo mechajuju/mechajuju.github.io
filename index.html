@@ -1,7 +1,33 @@
 <!DOCTYPE html>
-<html>
-	<body>
-		<h1>TESTING, 1, 2, 3</h1>
-		<p>turn my headphones up!</p>
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DJBPM 3/4 Loop Tool - juliana!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>DJBPM 3/4 Loop Tool</h1>
+
+		<div class="section">
+			<label for="bpm-input">Known BPM:</label>
+			<input type="number" id="bpm-input" min="0" placeholder="Enter BPM">
+			<button onclick="calculateBPM()">Calculate</button>
+		</div>
+
+		<div class="section results">
+			<div><strong>Start/Loop BPM:</strong> <span id="slow-bpm"></span></div>
+			<div><strong>End BPM:</strong> <span id="fast-bpm"></span></div>
+		</div>
+
+		<div class="section">
+			<h3>History</h3>
+			<ul id="history-list"></ul>
+			<button onclick="clearAll()">Clear All</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
 </html>
