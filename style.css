@@ -34,6 +34,7 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    margin: 10px auto;
 }
 
     button:hover {
@@ -41,13 +42,12 @@ button {
     }
 
 .results div {
-    margin-top: 5px;
+    margin-top: 0px;
     font-size: 1.1em;
 }
 
 #history-list {
     list-style-type: none;
-    padding: 0;
     max-height: 200px;
     overflow-y: auto;
     border: 1px solid #ddd;
