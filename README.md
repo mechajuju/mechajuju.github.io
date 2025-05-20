@@ -1,4 +1,4 @@
-# DJBPM - Web Client
+# [DJBPM - Web Client](mechajuju.github.io)
 
 **This is a web-based version of [djbpm](https://github.com/mechajuju/djbpm).**
 
